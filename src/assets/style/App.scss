@@ -1,0 +1,76 @@
+
+// Theme variables
+$black: #000000;
+$white: #ffffff;
+$lite-gray: #f7f7f7;
+
+$eggshell: #fbfbe4;
+$lite-pink: #fbfbe4;
+
+$dark-orange: #f88d6c;
+$medium-orange: #e89c83;
+$lite-orange: #f5ceb5;
+$burnt-orange: #c68b7c;
+
+$dark-turquoise: #255451;
+$medium-turquoise: #749c9c;
+$lite-turquoise: #99afa2;
+
+$theme-colors: (
+  'primary': $dark-turquoise,
+  'secondary': $dark-orange,
+);
+
+// global styles
+.App {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+a {
+  color: $dark-turquoise;
+  text-decoration: none;
+  &:hover {
+    color: $medium-turquoise;
+  }
+}
+
+// header
+.header-container {
+  padding: 20px;
+  .header-link {
+    cursor: pointer;
+    color: $dark-turquoise;
+    text-decoration: none;
+    &:hover {
+      color: $medium-turquoise;
+    }
+  }
+  .header-logo {
+    max-width: 90px;
+    height: auto;
+  }
+}
+
+// hero
+.hero-container {
+  background-image: url("../images/gallery/hero_1.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 100vh;
+  .hero-text {
+    position: relative;
+    top: 25%;
+    background-color: rgb(251, 251, 228, .8);
+    border: 2px solid;
+    border-radius: 4px;
+    text-transform: capitalize;
+    margin: 0 25% 0 25%;
+    padding: 8px;
+    font-weight: 700;
+    font-size: 28px;
+    color: $dark-orange;
+  }
+}
+
+@import '~bootstrap/scss/bootstrap';
