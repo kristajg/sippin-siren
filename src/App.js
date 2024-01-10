@@ -16,8 +16,8 @@ function App() {
       <Hero />
       <About />
       <Menu />
-      <Gallery />
       <Order />
+      <Gallery />
       <Footer />
     </div>
   );
