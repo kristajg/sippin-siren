@@ -29,20 +29,29 @@ a {
   color: $dark-turquoise;
   text-decoration: none;
   &:hover {
-    color: $medium-turquoise;
+    color: $medium-gray-blue;
   }
 }
 
 p {
   color: $dark-turquoise;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 // all section styles
 .section-container {
   min-height: 400px;
-  padding: 14px 15%;
-  // section header
-  // section hr
+  padding: 50px 15%;
+  h3 {
+    text-transform: uppercase;
+    color: $medium-turquoise
+  }
+  .section-shell-img {
+    width: 50px;
+    height: auto;
+    padding-bottom: 18px;
+  }
 }
 
 // header
@@ -53,7 +62,7 @@ p {
     color: $dark-turquoise;
     text-decoration: none;
     &:hover {
-      color: $medium-turquoise;
+      color: $medium-gray-blue;
       text-decoration: underline;
     }
   }
@@ -68,6 +77,7 @@ p {
   min-height: 120px;
   padding-top: 18px;
   background-color: $medium-coral;
+  color: $eggshell;
 }
 
 // hero
@@ -92,11 +102,22 @@ p {
 }
 
 // about
-// #section-about {}
+#section-about {
+  p {
+    padding-bottom: 1.5rem;
+  }
+}
 
 // menu
 #section-menu {
   background-color: $light-gray-blue;
+  .menu-icon {
+    height: 24px;
+    width: auto;
+  }
+  .menu-name {
+    font-size: 22px;
+  }
 }
 
 // order form

@@ -2,7 +2,7 @@ export default function Hero() {
 	return (
 		<div className='hero-container'>
 			<div className='hero-text'>
-				locally sourced bottled coffee & tea delivered right to your door
+				locally sourced coffee & tea delivered in austin, texas
 			</div>
 		</div>
 	);

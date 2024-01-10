@@ -11,6 +11,11 @@ export default function Footer() {
             Copyright 2024 © Sippin Siren 
           </Col>
         </Row>
+        <Row>
+          <Col>
+            Social media, terms of service etc will go here!
+          </Col>
+        </Row>
       </Container>
 		</div>
 	);
