@@ -36,16 +36,18 @@ export default function Menu() {
 			<div>
 				<img src={logo_shell}  alt='shell icon' className='section-shell-img' />
 			</div>
-			<Container>
-				<Row>
-					{menu.map(obj => (
-						<Col id={`menu-item-${obj.name}`}>
-							<img src={obj.type === 'coffee' ? coffee_beans_icon : tea_icon} alt={`${obj.type} icon`} className='menu-icon' />
-							<span className='menu-name'>{obj.name}</span>
-						</Col>
-					))}
-				</Row>
-			</Container>
+			<div className='menu-content'>
+				<Container>
+					<Row>
+						{menu.map(obj => (
+							<Col id={`menu-item-${obj.name}`}>
+								<img src={obj.type === 'coffee' ? coffee_beans_icon : tea_icon} alt={`${obj.type} icon`} className='menu-icon' />
+								<span className='menu-name'>{obj.name}</span>
+							</Col>
+						))}
+					</Row>
+				</Container>
+			</div>
 		</div>
 	);
 }
