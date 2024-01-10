@@ -13,7 +13,7 @@ const menu = [
 
 export default function Menu() {
 	return (
-		<div className='menu-container' id='section-menu'>
+		<div className='section-container' id='section-menu'>
 			<h3>Menu</h3>
 			<Container>
 				<Row>

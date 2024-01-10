@@ -1,6 +1,6 @@
 export default function Order() {
 	return (
-		<div id='section-order'>
+		<div className='section-container' id='section-order'>
 			<h3>Order</h3>
 			<p>
 				Order form copy TBD.

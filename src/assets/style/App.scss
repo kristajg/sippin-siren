@@ -2,23 +2,21 @@
 // Theme variables
 $black: #000000;
 $white: #ffffff;
-$lite-gray: #f7f7f7;
+$off-white: #fefefe;
+$eggshell: #fef9e3;
 
-$eggshell: #fbfbe4;
-$lite-pink: #fbfbe4;
+$dark-turquoise: #23595a;
+$medium-turquoise: #1e5451;
+$medium-gray-blue: #93ACA0;
+$light-gray-blue: #D0D7C5;
 
-$dark-orange: #f88d6c;
-$medium-orange: #e89c83;
-$lite-orange: #f5ceb5;
-$burnt-orange: #c68b7c;
-
-$dark-turquoise: #255451;
-$medium-turquoise: #749c9c;
-$lite-turquoise: #99afa2;
+$dark-coral: #fc906d;
+$medium-coral: #c68369;
+$light-coral: #fedcd1;
 
 $theme-colors: (
   'primary': $dark-turquoise,
-  'secondary': $dark-orange,
+  'secondary': $dark-coral,
 );
 
 // global styles
@@ -35,6 +33,18 @@ a {
   }
 }
 
+p {
+  color: $dark-turquoise;
+}
+
+// all section styles
+.section-container {
+  min-height: 400px;
+  padding: 14px 15%;
+  // section header
+  // section hr
+}
+
 // header
 .header-container {
   padding: 20px;
@@ -44,12 +54,20 @@ a {
     text-decoration: none;
     &:hover {
       color: $medium-turquoise;
+      text-decoration: underline;
     }
   }
   .header-logo {
     max-width: 90px;
     height: auto;
   }
+}
+
+// footer
+.footer-container {
+  min-height: 120px;
+  padding-top: 18px;
+  background-color: $medium-coral;
 }
 
 // hero
@@ -60,17 +78,33 @@ a {
   height: 100vh;
   .hero-text {
     position: relative;
-    top: 25%;
-    background-color: rgb(251, 251, 228, .8);
-    border: 2px solid;
-    border-radius: 4px;
+    top: 35%;
+    background-color: rgb(251, 251, 228, .9);
+    border-radius: 2px;
     text-transform: capitalize;
     margin: 0 25% 0 25%;
     padding: 8px;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 28px;
-    color: $dark-orange;
+    font-style: italic;
+    color: $dark-coral;
   }
+}
+
+// about
+// #section-about {}
+
+// menu
+#section-menu {
+  background-color: $light-gray-blue;
+}
+
+// order form
+// #section-order {}
+
+// gallery
+#section-gallery {
+  background-color: $light-gray-blue;
 }
 
 @import '~bootstrap/scss/bootstrap';
