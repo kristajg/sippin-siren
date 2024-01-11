@@ -15,7 +15,7 @@ export default function Header() {
 
 	return (
 		<Container className='header-container'>
-			<Row>
+			<Row className='justify-content-around'>
 				<Col>
 					<span className='header-link' id='about' onClick={scrollToContentSection}>
 						About
@@ -27,7 +27,10 @@ export default function Header() {
 					</span>
 				</Col>
 				<Col>
-					<img src={logo_circle} alt='sippin siren logo' className='header-logo' />
+					<span className='logo-wrap'>
+						<div className='circle-logo-background' />
+						<img src={logo_circle} alt='sippin siren logo' className='header-logo' />
+					</span>
 				</Col>
 				<Col>
 					<span className='header-link' id='order' onClick={scrollToContentSection}>

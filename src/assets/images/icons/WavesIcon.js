@@ -1,4 +1,4 @@
-export default function Waves() {
+export default function WavesIcon() {
 	return (
     <svg
       height="auto"

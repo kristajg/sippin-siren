@@ -1,11 +1,11 @@
 import Button from 'react-bootstrap/Button';
-import Waves from '../components/Waves';
+import WavesIcon from '../assets/images/icons/WavesIcon';
 
 export default function About() {
 	return (
 		<div className='section-container' id='section-about'>
 			<h3>About</h3>
-			<Waves />
+			<WavesIcon />
 			<p>
 				Sippin Siren is a female owned and founded coffee and tea delivery service located in the heart of Austin Texas. Each beverage is hand crafted to provide maximum joy (and caffeine if that's your thing).
 				Our ingredients are locally sourced and each order is crafted to your specifications by our professional barista and owner Sarah!

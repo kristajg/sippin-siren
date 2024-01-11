@@ -1,10 +1,10 @@
-import Waves from '../components/Waves';
+import WavesIcon from '../assets/images/icons/WavesIcon';
 
 export default function Order() {
 	return (
 		<div className='section-container' id='section-order'>
 			<h3>Order</h3>
-			<Waves />
+			<WavesIcon />
 			<p>
 				Orders are currently available for delivery within the city limits of Austin, Texas unless otherwise agreed upon.
 				These caffeinated beauties will last in your fridge for up to 5 days.
